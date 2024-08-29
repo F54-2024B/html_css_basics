@@ -1,0 +1,28 @@
+* {
+  background-color: black;
+}
+
+p {
+  color: #f0f !important;
+  color: white;
+}
+
+.title {
+  color: blue;
+}
+
+p.title#title {
+  color: green;
+}
+
+#title {
+  color: brown;
+}
+
+.container {
+  background-color: gray;
+  padding: 20px;
+  padding-top: 30px;
+  border: 10px dashed black;
+  margin: 15px;
+}
