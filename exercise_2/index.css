@@ -1,0 +1,47 @@
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li:first-of-type a {
+  color: magenta;
+}
+
+.navbar ul li:last-child a {
+  margin-right: 0;
+}
+
+.navbar ul li:nth-child(2n) a {
+  color: darkgoldenrod;
+}
+
+.container {
+  background-color: crimson;
+  width: 100vw;
+  height: 400px;
+}
+
+.container__box {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+
+.position {
+  position: relative;
+}
+
+.position__box {
+  position: absolute;
+}
+
+.position__box--small {
+  position: absolute;
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+}
